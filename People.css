@@ -373,10 +373,10 @@ height: 100%;
         left: 30px;
         }
         .elem{
-            margin: 0;
+            margin: 10px;
             height: 90%;
-            width: 40%;
-        display: flex;
+            width: 60%;
+        
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
@@ -389,10 +389,11 @@ height: 100%;
         }
         .backpho{
     
-            display: flex;
+            
             justify-content: flex-start;
             align-items: center;
-            height:4%;
+        height: 5%;
+            width: 100%;
             background-image: url(imgo.avif);
             border-radius: 0 0 0 0;
             background-size: 100% 200px;
