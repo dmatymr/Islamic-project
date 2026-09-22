@@ -1,0 +1,384 @@
+*{
+    margin: auto;
+    padding: auto;
+    background-color: white;
+color: gray;
+text-decoration: none;
+background-color: transparent;
+    
+}
+i{
+    color: #F2d18a;
+}
+body{
+    
+    width: 100%;
+    height: 200vh;
+    
+}
+.head{
+    width: 100%;
+    height: 10%;
+    background-color: #12351D;
+}
+.header{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #12351D;
+}
+.heri{
+    display: flex;
+    width: 23%;
+    text-align: center;
+}
+.heading{
+    display: flex;
+    width: 60%;
+
+    text-align: center;
+}
+.heading > section > p{
+    color: white;
+}
+.search{
+    display: flex;
+    position: relative;
+    height: 40%;
+   width: 300px;
+
+}
+
+    .search > input {
+        height: 40%;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 100px;
+        border: solid 2px #F2d18a ;
+        color: #F2d18a;
+        
+    }
+
+    .search > input::placeholder{
+        font-size: larger;
+        color:  #F2d18a;
+    }
+    .search > input:focus-within{
+        outline: none;
+        border: 2px solid #F2d18a;
+    }
+#magni{
+    position: absolute;
+    background: none;
+top: 17px;
+left: 8px;
+}
+#helal{
+    font-size: xx-large;
+}
+.heri2{
+    text-align: center;
+
+    height: 100%;
+}
+.heri2 > .dot{
+position: relative;
+bottom: 3px;
+}
+.heri2 > span{
+    color: #F2d18a;
+}
+.heri2 > h2{
+    font-size: xx-large;
+    color: #F2d18a;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    background-color: #F8EFD9;
+    
+    
+}
+article > img {
+    margin: 0;
+    width: 55%;
+    height: 100%;
+    border-radius: 0 0 0 200px;
+    border: solid 5px #F2d18a;
+    border-right: none;
+    box-shadow: 0 0 100px 0 #F2d18a;
+    border-top: 3px solid #F2d18a;
+}
+.half{
+    height: 100%;
+    width: 50%;
+    background-color: #F2d18a;
+    background-image:url("imga.avif") ;
+    background: linear-gradient( 20% at left , red,blue);
+    box-shadow: #12351D at left;
+    background-repeat: no-repeat;
+background-size: 100% 100%;
+margin: 0;
+
+display: flex;
+flex-direction: column;
+border-radius: 0 0 200px 0;
+box-shadow: 0 0 100px 0 #F2d18a;
+
+
+border: 5px solid #F2d18a;
+border-left: none;
+border-top: 3px solid #F2d18a;
+}
+.half::after{
+
+    
+    text-decoration: line-through;
+}
+#nosa{
+    
+    
+    
+    font-size: x-large;
+}
+.romel::after,
+.romel::before{
+content: '-------';
+font-size: xx-large;
+color: #F2d18a;
+}
+
+.reco{
+font-size: xx-large;
+color: #F2d18a;
+
+    
+}
+
+.half > .reso {
+   color: #F2d18a;
+    
+    width: 40%;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.reso>.reso2{
+    color: #F2d18a;
+    margin-right: 10px;
+    
+}
+.half > h1{
+    font-size: 60px;
+    color: #F2d18a;
+}
+#nost{
+    
+    
+    
+    font-size: x-large;
+}
+.romes{
+    margin-bottom: 40px;
+}
+.romes::after,
+.romes::before{
+content: '-------';
+font-size: xx-large;
+color: #F2d18a;
+}
+.allbox{
+    width: 100%;
+    height: 40%;
+    background-color: #F8EFD9;
+    display: flex;
+}
+.box1{
+overflow: hidden;
+    height: 100%;
+    margin: 40px;
+    border:solid 6px #F2d18a;
+  width: 100%;
+border-radius: 40px;
+
+}
+.box1 > img{
+    height:60%;
+    width: 100%;
+    display: flex;
+   border-bottom: #F2d18a solid 2px;
+}
+.thrbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:60%;
+    
+}
+.parbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 20px;
+    height: 40%;
+    padding: 5px;
+    background-color: #12351D;
+    
+    position: relative;
+    
+}
+.mosque{
+border: 3px solid #F2d18a ;
+border-radius: 100%;
+font-size: larger;
+background-color: #12351D;
+
+width: 70px;
+height: 44px;
+font-size: 23px;
+
+display: flex;
+}
+.arrow{
+    border: 3px solid #F2d18a ;
+    border-radius: 100%;
+    font-size: larger;
+    background-color: #12351D;
+    
+    width: 45px;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    }
+    
+    .box1 , h2{
+        color: #F2d18a;
+        width: 100%;
+    }
+    .box1 , p{
+        color: #F2d18a;
+    width: 100%;
+    
+    }
+    .backpho{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 15%;
+        background-image: url(imgo.avif);
+        border-radius: 0 0 100px 100px;
+        background-size: 100% 200px;
+        background-repeat: no-repeat;
+        
+    }
+    .elem{
+    
+        align-items: flex-end;
+        
+        width: 90%;
+        
+    }
+    .elem > span{
+        color: #F2d18a
+    }
+    #nost10{
+    
+    
+    
+        font-size: x-large;
+    }
+    .romes10::after,
+    .romesl0::before{
+    content: '---------';
+    font-size: xx-large;
+    color: #F2d18a;
+    }
+    @media (max-width:800px){
+        
+        body{
+        
+    height: 600vh;
+            
+            
+        
+        }
+        article{
+        display: flex;
+            flex-direction: row;
+            height: 13%;
+        } 
+        article > img{
+            border-radius: 0 0 0 0 ;
+        }
+        .half{
+            border-radius: 0 0 0 0 ;
+        }
+        .thrbox{
+            
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+width: 80%;
+height: 100%;
+        }
+        .half{
+            width: 100%;
+            
+        }
+        .header{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        
+        }
+        #magni{
+            position: absolute;
+            background: none;
+        top: 70px;
+        left: 30px;
+        }
+        .elem{
+            margin: 15px;
+            height: 40%;
+            width: 55%;
+        }
+        .heri{
+            width: 60%;
+        }
+        .allbox{
+            height: 40%;
+        }
+        .backpho{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 5%;
+            background-image: url(imgo.avif);
+            border-radius: 0 0 0 0;
+            background-size: 100% 200px;
+            background-repeat: no-repeat;
+            
+        }
+        
+    }
+    @media (min-width:801px) and  (max-width:1200px){
+        .parbox{
+height: 39%;
+        }
+        .allbox{
+height: 70%;
+        }
+        .thrbox{
+height: 60%;
+        }
+    }
+
