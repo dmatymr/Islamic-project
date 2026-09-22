@@ -326,6 +326,8 @@ display: flex;
         body{
         
     height: 600vh;
+    width: 100%;
+    overflow-x:hidden 
             
             
         
@@ -372,7 +374,8 @@ height: 100%;
         .heading{
             display: flex;
             flex-direction: row;
-            gap: 20px;
+            
+            width: 100%;
         }
         #magni{
             display: flex;
