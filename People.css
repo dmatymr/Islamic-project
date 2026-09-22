@@ -341,13 +341,16 @@ display: flex;
             border: 1px solid #F2d18a;
             border-right: none;
             margin: auto;
+            overflow: hidden;
+            width: 49%;
         }
         .half{
+            overflow: hidden;
             border-radius: 0 0 0 0 ;
-            width: 100%;
+            width: 50%;
             border: 1px solid #F2d18a;
             margin: auto;
-            margin: 0;
+            border-left: none;
         }
         .thrbox{
             
@@ -357,11 +360,19 @@ display: flex;
 width: 80%;
 height: 100%;
         }
+        .search{
+            height: 120px;
+        }
         .header{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-        
+    
+        }
+        .heading{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
         }
         #magni{
             display: flex;
@@ -369,8 +380,8 @@ height: 100%;
             align-items: flex-start;
             position: absolute;
             background: none;
-        top: 70px;
-        left: 30px;
+        top: 45%;
+        left: 10%;
         }
         .elem{
             margin: 10px;
