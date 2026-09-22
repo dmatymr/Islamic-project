@@ -344,7 +344,7 @@ display: flex;
             border-right: none;
             margin: auto;
             overflow: hidden;
-            width: 49%;
+            width: 50%;
         }
         .half{
             overflow: hidden;
@@ -374,8 +374,9 @@ height: 100%;
         .heading{
             display: flex;
             flex-direction: row;
-            
-            width: 100%;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
         }
         #magni{
             display: flex;
